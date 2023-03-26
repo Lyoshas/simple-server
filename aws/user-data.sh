@@ -5,7 +5,7 @@ sudo apt-get --assume-yes install nodejs
 # завантаження npm
 sudo apt-get --assume-yes install npm
 # перейти до /home/ubuntu
-cd ~
+cd /home/ubuntu
 # завантажити вихідний код серверу
 git clone https://github.com/Lyoshas/simple-server.git
 # перейти до /home/ubuntu/simple-server
