@@ -1,0 +1,12 @@
+[Unit]
+Description=My Node.js Server
+After=network.target
+
+[Service]
+ExecStart=sudo /usr/bin/node /home/ubuntu/my-server/server.js
+WorkingDirectory=/home/ubuntu/my-server
+Restart=always
+User=ubuntu
+
+[Install]
+WantedBy=multi-user.target
