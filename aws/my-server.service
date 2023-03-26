@@ -3,8 +3,8 @@ Description=My Node.js Server
 After=network.target
 
 [Service]
-ExecStart=sudo /usr/bin/node /home/ubuntu/my-server/server.js
-WorkingDirectory=/home/ubuntu/my-server
+ExecStart=sudo npm start
+WorkingDirectory=/home/ubuntu/simple-server
 Restart=always
 User=ubuntu
 
